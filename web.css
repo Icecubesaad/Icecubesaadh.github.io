@@ -1,0 +1,1100 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Gemunu+Libre&family=Inter+Tight:wght@300&family=Merriweather:wght@300&family=Montserrat&family=Poppins:wght@300&family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 12vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: sticky;
+  top: 0;
+  align-self: stretch;
+  position: -webkit-sticky;
+  overflow: visible
+  ;
+}
+#menu {
+  align-self: center;
+  padding-left: 20px;
+  align-items: stretch;
+  position: -webkit-sticky;
+  overflow: visible
+  ;
+  position: sticky;
+  top: 0;
+}
+#menu button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.logo {
+  justify-self: center;
+  align-self: center;
+}
+.search-things {
+  background-color: white;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.search {
+  margin-right: 20px;
+}
+.search button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.cart button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.black-line{
+  height: 3px;
+  width: 80%;
+  background-color: grey;
+  justify-self:center ;
+}
+#big-white {
+  background-color: white;
+  height: 100%;
+  width: 0px;
+  position: absolute;
+  z-index: 99999;
+  transition: 0.2s;
+  display: grid;
+  grid-template-rows: 0.1fr 1fr 1fr;
+}
+.options {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  height: 200px;
+  margin-top: 20px;
+}
+#contact{
+  margin-top: 30px;
+  padding-left: 25px;
+}
+#contact a{
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+}
+.logos{
+  display: flex;
+}
+#close{
+  justify-self: left;
+  background-color: blue;
+}
+#dropdown-1 a {
+  font-size: 1.2rem;
+  padding-left: 25px;
+}
+
+#dropdown-2 a {
+  font-size: 1.2rem;
+  padding-left: 25px;
+}
+
+#dropdown-3 a {
+  font-size: 1.2rem;
+  padding-left: 25px;
+}
+#dropdown-4 a {
+  font-size: 1.2rem;
+  padding-left: 25px;
+}
+#dropdown-5 a {
+  font-size: 1.2rem;
+  padding-left: 25px;
+}
+#dropdown-6 a {
+  font-size: 1.2rem;
+  padding-left: 25px;
+}
+#close {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 20px 0 0 20px;
+  display: none;
+}
+.form-control me-2 {
+  background-color: transparent;
+}
+.head {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 40px;
+  justify-content: center;
+}
+#head {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 40px;
+  justify-content: center;
+}
+.njs {
+  display: flex;
+  justify-content: center;
+}
+.line {
+  height: 3px;
+  width: 30px;
+  background-color: black;
+}
+.grid-menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+  margin-top: 50px;
+}
+.grid-menu-second {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.grid-menu-2nd {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+#first {
+  height: 60vh;
+}
+#first-s {
+  height: 60vh;
+}
+.f {
+  opacity: 0;
+  animation-name: ICECUBE;
+  animation-duration: 1s;
+  animation-delay: 0.3s;
+  width: 100%;
+  animation-fill-mode: forwards;
+  background-color: red;
+  height: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(12, 11, 11, 0.3),
+      rgba(94, 91, 91, 0.3)
+    ),
+    url(/img/copy.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  transition: all 1.5s;
+}
+#first-s:hover .f {
+  transform: scale(1.1);
+}
+.f p {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.f a {
+  text-decoration: none;
+}
+#second {
+  height: 60vh;
+}
+#second-s {
+  height: 60vh;
+}
+.s {
+  background-color: blue;
+  height: 100%;
+  opacity: 0;
+
+  animation-fill-mode: forwards;
+  animation-name: ICECUBE;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  width: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(12, 11, 11, 0.3),
+      rgba(94, 91, 91, 0.3)
+    ),
+    url(/img/052GutzyAiden-TopoV2-Miami_720x.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1.5s;
+  animation-name: ICECUBE;
+}
+#second-s:hover .s {
+  transform: scale(1.1);
+}
+.s p {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.s a {
+  text-decoration: none;
+}
+#third {
+  height: 60vh;
+}
+#third-s {
+  height: 60vh;
+}
+.t {
+  background-color: blue;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  animation-name: ICECUBE;
+  animation-duration: 1s;
+  animation-delay: 0.7s;
+  animation-fill-mode: forwards;
+  background: linear-gradient(
+      0deg,
+      rgba(12, 11, 11, 0.3),
+      rgba(94, 91, 91, 0.3)
+    ),
+    url(/img/city_collection_720x.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1.5s;
+}
+#third-s:hover .t {
+  transform: scale(1.1);
+}
+.t p {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.t a {
+  text-decoration: none;
+}
+#fourth {
+  height: 60vh;
+}
+#fourth-s {
+  height: 60vh;
+}
+#fifth-s {
+  height: 60vh;
+}
+#six-s {
+  height: 60vh;
+}
+#seven-s {
+  height: 60vh;
+}
+#eight-s {
+  height: 60vh;
+}
+.fou {
+  background-color: blue;
+  height: 100%;
+  opacity: 0;
+  animation-name: ICECUBE;
+  animation-duration: 1s;
+  animation-delay: 0.9s;
+  width: 100%;
+  animation-fill-mode: forwards;
+
+  background: linear-gradient(
+      0deg,
+      rgba(12, 11, 11, 0.3),
+      rgba(94, 91, 91, 0.3)
+    ),
+    url(/img/islands_720x.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1.5s;
+}
+.fou p {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.fou a {
+  text-decoration: none;
+}
+#fourth-s:hover .fou {
+  transform: scale(1.1);
+}
+/* badbabdasdkbsa */
+.f-t p {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.f-t a {
+  text-decoration: none;
+}
+#first-s:hover .f-t {
+  transform: scale(1.1);
+}
+.s-t p {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.s-t a {
+  text-decoration: none;
+}
+#second-s:hover .s-t {
+  transform: scale(1.1);
+}
+.t-t p {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.t-t a {
+  text-decoration: none;
+}
+#third-s:hover .t-t {
+  transform: scale(1.1);
+}
+.fou-t p {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.fou-t a {
+  text-decoration: none;
+}
+#fourth-s:hover .fou-t {
+  transform: scale(1.1);
+}
+.fif-t p {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.fif-t a {
+  text-decoration: none;
+}
+#fifth-s:hover .fif-t {
+  transform: scale(1.1);
+}
+.six-t p {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.six-t a {
+  text-decoration: none;
+}
+#six-s:hover .six-t {
+  transform: scale(1.1);
+}
+.seven-t p {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.seven-t a {
+  text-decoration: none;
+}
+#seven-s:hover .seven-t {
+  transform: scale(1.1);
+}
+.eight-t p {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.eight-t a {
+  text-decoration: none;
+}
+#eight-s:hover .eight-t {
+  transform: scale(1.1);
+}
+/* aafkafkabjfk */
+.s-t{
+	background-color: blue;
+	height: 100%;
+	opacity: 0;
+	animation-name: ICECUBE;
+	animation-duration: 1s;
+	animation-delay: 0.9s;
+	width: 100%;
+	animation-fill-mode: forwards;
+  
+	background: linear-gradient(
+		0deg,
+		rgba(12, 11, 11, 0.3),
+		rgba(94, 91, 91, 0.3)
+	  ),
+	  url(/img/052_Gutzy_Aiden_-_Desk_-_Brown_720x.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 1.5s;
+}
+.t-t{
+	background-color: blue;
+	height: 100%;
+	opacity: 0;
+	animation-name: ICECUBE;
+	animation-duration: 1s;
+	animation-delay: 0.9s;
+	width: 100%;
+	animation-fill-mode: forwards;
+  
+	background: linear-gradient(
+		0deg,
+		rgba(12, 11, 11, 0.3),
+		rgba(94, 91, 91, 0.3)
+	  ),
+	  url(/img/Gutzy_Aiden_-_Galactic_720x.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 1.5s;
+}
+.fou-t{
+	background-color: blue;
+	height: 100%;
+	opacity: 0;
+	animation-name: ICECUBE;
+	animation-duration: 1s;
+	animation-delay: 0.9s;
+	width: 100%;
+	animation-fill-mode: forwards;
+  
+	background: linear-gradient(
+		0deg,
+		rgba(12, 11, 11, 0.3),
+		rgba(94, 91, 91, 0.3)
+	  ),
+	  url(/img/052_Gutzy_Aiden_-_Planet_2_720x.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 1.5s;
+}
+.fif-t{
+	background-color: blue;
+	height: 100%;
+	opacity: 0;
+	animation-name: ICECUBE;
+	animation-duration: 1s;
+	animation-delay: 0.9s;
+	width: 100%;
+	animation-fill-mode: forwards;
+  
+	background: linear-gradient(
+		0deg,
+		rgba(12, 11, 11, 0.3),
+		rgba(94, 91, 91, 0.3)
+	  ),
+	  url(/img/052_Gutzy_Aiden_-_Vermax_1_720x.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 1.5s;
+}
+.six-t{
+	background-color: blue;
+	height: 100%;
+	opacity: 0;
+	animation-name: ICECUBE;
+	animation-duration: 1s;
+	animation-delay: 0.9s;
+	width: 100%;
+	animation-fill-mode: forwards;
+  
+	background: linear-gradient(
+		0deg,
+		rgba(12, 11, 11, 0.3),
+		rgba(94, 91, 91, 0.3)
+	  ),
+	  url(/img/collection_f4009bff-ed11-482d-a173-992478ac2ff0_720x.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 1.5s;
+}
+.seven-t{
+	background-color: blue;
+	height: 100%;
+	opacity: 0;
+	animation-name: ICECUBE;
+	animation-duration: 1s;
+	animation-delay: 0.9s;
+	width: 100%;
+	animation-fill-mode: forwards;
+  
+	background: linear-gradient(
+		0deg,
+		rgba(12, 11, 11, 0.3),
+		rgba(94, 91, 91, 0.3)
+	  ),
+	  url(/img/tq_collection_720x.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 1.5s;
+}
+.eight-t{
+	background-color: blue;
+	height: 100%;
+	opacity: 0;
+	animation-name: ICECUBE;
+	animation-duration: 1s;
+	animation-delay: 0.9s;
+	width: 100%;
+	animation-fill-mode: forwards;
+  
+	background: linear-gradient(
+		0deg,
+		rgba(12, 11, 11, 0.3),
+		rgba(94, 91, 91, 0.3)
+	  ),
+	  url(/img/052_Gutzy_Aiden_-_Jordielocks_Collab_720x.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 1.5s;
+}
+.f-t{
+	background-color: blue;
+	height: 100%;
+	opacity: 0;
+	animation-name: ICECUBE;
+	animation-duration: 1s;
+	animation-delay: 0.9s;
+	width: 100%;
+	animation-fill-mode: forwards;
+  
+	background: linear-gradient(
+		0deg,
+		rgba(12, 11, 11, 0.3),
+		rgba(94, 91, 91, 0.3)
+	  ),
+	  url(/img/052_Gutzy_Aiden_-_Anime_720x.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 1.5s;
+}
+
+
+.text1 {
+  text-align: center;
+  color: grey;
+}
+.text1 a {
+  color: grey;
+  text-decoration: none;
+}
+.text1 a:hover {
+  color: grey;
+  cursor: pointer;
+}
+.f-s {
+  background-color: blue;
+  height: 100%;
+  opacity: 0;
+  animation-name: ICECUBE;
+  animation-duration: 1s;
+  animation-delay: 0.9s;
+  width: 100%;
+  animation-fill-mode: forwards;
+
+  background: linear-gradient(
+      0deg,
+      rgba(12, 11, 11, 0.3),
+      rgba(94, 91, 91, 0.3)
+    ),
+    url(/img/BlackWhiteSwirl_540x.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  transition: all 1.5s;
+}
+.s-s {
+  background-color: blue;
+  height: 100%;
+  opacity: 0;
+  animation-name: ICECUBE;
+  animation-duration: 1s;
+  animation-delay: 0.9s;
+  width: 100%;
+  animation-fill-mode: forwards;
+
+  background: linear-gradient(
+      0deg,
+      rgba(12, 11, 11, 0.3),
+      rgba(94, 91, 91, 0.3)
+    ),
+    url(/img/052_Gutzy_Aiden_-_Tokyo_Skyline_540x.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  transition: all 1.5s;
+}
+.t-s {
+  background-color: blue;
+  height: 100%;
+  opacity: 0;
+  animation-name: ICECUBE;
+  animation-duration: 1s;
+  animation-delay: 0.9s;
+  width: 100%;
+  animation-fill-mode: forwards;
+
+  background: linear-gradient(
+      0deg,
+      rgba(12, 11, 11, 0.3),
+      rgba(94, 91, 91, 0.3)
+    ),
+    url(/img/WhiteGreyMOCKUP_540x.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  transition: all 1.5s;
+}
+.fou-s {
+  background-color: blue;
+  height: 100%;
+  opacity: 0;
+  animation-name: ICECUBE;
+  animation-duration: 1s;
+  animation-delay: 0.9s;
+  width: 100%;
+  animation-fill-mode: forwards;
+
+  background: linear-gradient(
+      0deg,
+      rgba(12, 11, 11, 0.3),
+      rgba(94, 91, 91, 0.3)
+    ),
+    url(/img/HCustom4MOCKUP_540x.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  transition: all 1.5s;
+}
+#black{
+	width: 100%;
+}
+#first:hover .txt-black{
+	opacity: 1;
+}
+#second:hover .txt-black{
+	opacity: 1;
+}
+#third:hover .txt-black{
+	opacity: 1;
+}
+#fourth:hover .txt-black{
+	opacity: 1;
+}
+#black-strip-1{
+	background-color: black;
+	width: 100%;
+	text-align: center
+	;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
+
+}
+#black-strip-2{
+	background-color: black;
+	width: 100%;
+	text-align: center
+	;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
+
+}
+#black-strip-3{
+	background-color: black;
+	width: 100%;
+	text-align: center
+	;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
+
+}
+#black-strip-4{
+	background-color: black;
+	width: 100%;
+	text-align: center
+	;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
+
+}
+.txt-black{
+	color: white;
+	text-decoration: none;
+	font-family: "Montserrat", sans-serif;
+	opacity: 0;
+}
+#black-strip-1 a:hover{
+	color: white;
+}
+#black-strip-2 a:hover{
+	color: white;
+}
+#black-strip-3 a:hover{
+	color: white;
+}
+#black-strip-4 a:hover{
+	color: white;
+}
+.txt-price{
+	text-align: center;
+}
+.txt-section a{
+     text-decoration: none;
+	 color: black;
+	 font-size: 1.2rem;
+	 font-family: "Montserrat", sans-serif;
+}
+.txt-section a:hover{
+	color: black;
+}
+#main-3rd{
+	margin-top: 100px;
+	transition: 1s;
+}
+.grid-menu-3rd {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	column-gap: 30px;
+	row-gap: 30px;
+
+	margin-top: 50px;
+  }
+/* animatiom */
+@keyframes ICECUBE {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.footer{
+  background-color: rgb(28, 27, 27);
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 40px 0 40px 20px;
+  color: white;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+}
+.footer a:hover{
+  color: white;
+}
+.contact{
+  align-self: center;
+}
+.socials{
+  align-self: center;
+}
+.links{
+  display: flex;
+  width: 50%;
+  grid-template-columns: repeat(3,1fr);
+  align-self: center;
+
+}
+.instagram{
+  justify-self: center;
+  background-color: grey;
+  border-radius: 50%;
+}
+.github{
+  justify-self: center;
+  background-color: grey;
+  border-radius: 50%;
+}
+.discord{
+  justify-self: center;
+  background-color: grey;
+  border-radius: 50%;
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
+.instagram1{
+  justify-self: center;
+  
+  border-radius: 50%;
+}
+.github1{
+  justify-self: center;
+  
+  border-radius: 50%;
+}
+.discord1{
+  justify-self: center;
+ 
+  border-radius: 50%;
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
+.search-reatrd{
+
+  display: none;
+}
+@media  screen and (min-width:850px) {
+  .grid-menu {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+  }
+  .grid-menu-3rd {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    }
+}
+@media screen and (max-width:850px) {
+  .grid-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-top: 50px;
+  }
+  .grid-menu-second {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 80px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  
+}
+@media screen and (max-width:770px) {
+  .grid-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-top: 50px;
+  }
+  .grid-menu-second {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 80px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  .grid-menu-3rd {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin-top: 50px;
+  }
+  .txt-price{
+    font-size: 1rem;
+  }
+  
+}
+@media screen and (max-width:500px) {
+  .grid-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 50px;
+  }
+  .grid-menu-second {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 90px;
+    margin-top: 50px;
+  }
+  .grid-menu-3rd {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 50px;
+    }
+    
+  .txt-price{
+    font-size: 0.8rem;
+  }
+  #first{
+    height: 30vh;
+  }
+  #first-s{
+    height: 30vh;
+  }
+  #second{
+    height: 30vh;
+  }
+  #third{
+    height: 30vh;
+  }
+  #fourth{
+    height: 30vh;
+  }
+  #second-s{
+    height: 30vh;
+  }
+  #third-s{
+    height: 30vh;
+  }
+  #third-t{
+    height: 30vh;
+  }
+  #fourth-s{
+    height: 30vh;
+  }
+  #fourth-t{
+    height: 30vh;
+  }
+  #fifth-s{
+    height: 30vh;
+  }
+  #six-s{
+    height: 30vh;
+  }
+  #seven-s{
+    height: 30vh;
+  }
+  #eight-s{
+    height: 30vh;
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+  }
+
+  .por{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+  }
+  #btn_search{
+    display: none;
+  }
+  .search-reatrd{
+    display: flex;
+    justify-content: center;
+  }
+}
