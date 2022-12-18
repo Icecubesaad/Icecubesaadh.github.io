@@ -7,6 +7,7 @@ let options3 = document.getElementById("dropdown-3");
 let options4 = document.getElementById("dropdown-4");
 let options5 = document.getElementById("dropdown-5");
 let options6 = document.getElementById("dropdown-6");
+let items = document.getElementById("items");
 let contact = document.getElementById("contact");
 let black_strip1 = document.getElementById("black-strip-1");
 let black_strip2 = document.getElementById("black-strip-2");
@@ -33,6 +34,7 @@ btn.addEventListener("click", function () {
   side_menu.style.width = "250px";
   options1.style.display = "block";
   options2.style.display = "block";
+  items.style.display=
   options3.style.display = "block";
   contact.style.display = "block";
   options4.style.display = "block";
