@@ -197,7 +197,7 @@
       rgba(12, 11, 11, 0.3),
       rgba(94, 91, 91, 0.3)
     ),
-    url(/img/copy.jpg);
+    url(./copy.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
